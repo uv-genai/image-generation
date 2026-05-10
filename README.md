@@ -2,7 +2,7 @@
 
 This project contains a list of image generation and image editing `stable-diffusion.cpp` scripts.
 
-The directory structure is outlined below:
+The directory structure is outlined below, the `models` directory is not included in this repository:
 
 ```
 .
