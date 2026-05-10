@@ -9,6 +9,6 @@ sd-cli --diffusion-model ./models/qwen-image-edit/qwen-image-edit-2511-Q8_0.gguf
        --offload-to-cpu --diffusion-fa \
        --flow-shift 3 \
        -r $INPUT_IMAGE \
-       -p "change 'flux.cpp' to 'edit.cpp'" \
+       -p $PROMPT \
        -o out/qwen-image-edit.png \
        --qwen-image-zero-cond-t
